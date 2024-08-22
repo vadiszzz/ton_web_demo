@@ -14,6 +14,7 @@ export function mainContractConfigToCell(config: MainContractConfig): Cell {
         .endCell();
 }
 
+
 export class MainContract implements Contract {
     constructor(
         readonly address: Address,
